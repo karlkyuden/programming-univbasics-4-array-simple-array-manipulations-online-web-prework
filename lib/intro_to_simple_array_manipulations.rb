@@ -43,15 +43,17 @@ def using_uniq(array)
   array.uniq
 end
 
-#
+#returns a new array that is a one-dimensional flattening of self
 def using_flatten(array)
   array.flatten
 end
 
+#removes any items from the array that are equal to the string
 def using_delete(array, string)
   array.delete(string)
 end
 
+#delete using the index 
 def using_delete_at(array, integer)
   array.delete_at(integer)
 end
